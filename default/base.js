@@ -69,6 +69,7 @@ module.exports = {
         }
         // get suitable role
         thisSpawn = Game.spawns[currentSpawn];
+        console.log(Game.spawns)
         let totalResource = thisSpawn.room.energyAvailable;
         let low = Math.floor(totalResource / 200);
         if (low === 0) {

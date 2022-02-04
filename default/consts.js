@@ -13,7 +13,7 @@ module.exports = {
     builder: 'builder',
     upgrader: 'upgrader',
     repairer: 'repairer',
-    spawn: ['Spawn1'],
+    spawn: ['Charles'],
     // init param
     maxInitRetryTimes: 3,
 
